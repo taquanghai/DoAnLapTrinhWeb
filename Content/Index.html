@@ -1,0 +1,1461 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Drake VN</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .navbar {
+            padding-right: 200px;
+            font-size: 16px;
+            color: #f2f2f2;
+        }
+
+        .gachDung {
+            border-left: 1px solid black;
+            padding-left: 30px;
+            border-color: #ddd;
+        }
+
+        .trai {
+            float: left;
+        }
+
+        .phai {
+            float: right;
+        }
+
+        menu {
+            margin-top: 0;
+            padding-left: 0;
+        }
+
+        .hotline {
+            position: relative;
+            top: 15px;
+        }
+
+        .logo {
+            margin-left: 630px;
+            width: 10%;
+        }
+
+        .glyphicon-heart-empty {
+            margin-left: 500px;
+        }
+
+        .glyphicon {
+            padding: 15px;
+        }
+
+        .item {
+            text-align: center;
+        }
+
+        .slide {
+            margin-top: 20px;
+            height: 0px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        menu2 .navbar {
+            margin-top: 50px;
+        }
+
+        .navbar-form .form-control {
+            margin-bottom: 10px;
+        }
+
+        menu2 .navbar-inverse .navbar-nav > li > a {
+            font-size: 15px;
+        }
+
+        banner2 {
+            width: 150%;
+            margin-bottom: 500px;
+            align-items: center;
+        }
+
+        .carousel-inner > .item > img {
+            width: 100%;
+        }
+
+        .chuyenslide {
+            position: relative;
+            top: 650px;
+        }
+
+        .alllogo {
+            margin-top: 700px;
+        }
+
+        .lg {
+            margin-left: 50px;
+            padding-left: 110px;
+            margin-bottom: 20px;
+        }
+
+        .sale {
+            margin-bottom: 70px;
+            margin-left: 150px;
+        }
+
+        .ship {
+            margin-left: 500px;
+        }
+
+        .newarr {
+            width: 49%;
+        }
+
+        sanpham img {
+            width: 90%;
+        }
+
+        .row1 {
+            width: 45%;
+        }
+
+        .chude {
+            font-size: 15px;
+        }
+
+        .text {
+            text-align: center;
+        }
+
+        .tien {
+            font-size: 15px;
+        }
+
+        .tiensale {
+            font-size: 15px;
+            color: red;
+        }
+
+        .tiencu {
+            font-size: 15px;
+        }
+
+        .sneaker {
+            margin-top: 100px;
+            margin-bottom: 50px;
+            width: 100%;
+        }
+
+        converse img {
+            width: 90%;
+        }
+
+        .seemore {
+            background-color: white;
+            border: 1px solid #f8c052;
+            color: #f8c052;
+            padding: 10px;
+            margin-left: 500px;
+            margin-top: 20px;
+        }
+
+        .title {
+            text-align: center;
+            position: relative;
+            top: 10px;
+            margin-bottom: 30px;
+        }
+
+        .hinh {
+            width: 100%;
+        }
+
+        .img img {
+            max-width: 90px;
+            float: left;
+            margin-right: 15px;
+            padding-bottom: 30px;
+        }
+
+        .tintuc {
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: .02em;
+            margin-bottom: 0;
+            font-style: normal;
+            line-height: 1.4;
+        }
+
+        .ngay {
+            font-size: 12px;
+            color: #666;
+            padding: 0;
+            margin: 2px 0 0 0;
+        }
+
+        .mota {
+            font-size: 12px;
+            margin-top: 10px;
+            max-height: 3em;
+            overflow: hidden;
+            line-height: 1.4;
+            text-align: justify;
+        }
+
+        .email {
+            background-color: rgba(242,242,242,1);
+        }
+
+        .dk {
+            font-size: 16px;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .btn {
+            background: #f8c052;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 0 20px 20px 0;
+            padding-left: 30px;
+            padding-right: 30px;
+            height: 40px;
+        }
+
+        .laytt {
+            border-radius: 20px 0 0 20px;
+            background: white;
+            border: 1px solid #e1e1e1;
+            height: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 14px;
+            margin-left: 550px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background: white;
+            padding-bottom: 20px;
+        }
+
+        .footer_wrap {
+            padding: 16px 93px 0;
+        }
+
+        .footer-list {
+            width: 170px;
+            padding-right: 50px;
+            margin-bottom: 20px;
+            margin-right: 150px;
+        }
+
+            .footer-list h4 {
+                width: 250px;
+                padding-left: 40px;
+                margin-bottom: 10px;
+            }
+
+            .footer-list ul {
+                list-style: none;
+            }
+
+                .footer-list ul li {
+                    margin: 5px 0;
+                    line-height: 20px;
+                    width: 250px;
+                }
+
+        .items-link {
+            text-decoration: none;
+            color: #000;
+            font-size: 14px;
+        }
+
+        .footer-ul {
+            display: flex;
+        }
+
+        .footer-tren {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .do {
+            color: red;
+        }
+
+        .mangxahoi {
+            display: flex;
+        }
+
+        .by {
+            text-align: center;
+        }
+
+        .navbar-nav > li > .dropdown-menu {
+            width: 900px;
+        }
+
+        .megatext {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <menu>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="hotline" href="#">Hotline: 1800.0080</a></li>
+                    <li><a href="index2.html"><span class=" gachDung glyphicon glyphicon-lock"></span> Đăng Ký</a></li>
+                    <li><a href="index3.html"><span class="gachDung glyphicon glyphicon-user"></span> Đăng Nhập</a></li>
+                </ul>
+            </div>
+        </nav>
+    </menu>
+    <div clasa="menu2">
+        <a href="index.html"><img class="logo" src="Images/drake_logo.png"></a>
+        <a href="#"><div class="glyphicon glyphicon-heart-empty"></div></a>
+        <a href="#"><div class="glyphicon glyphicon-shopping-cart"></div></a>
+    </div>
+    <hr>
+    <div class="slideshow">
+        <div id="itmy" class="carousel slide" data-ride="carousel">
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <p>Miễn phí vận chuyển toàn quốc </p>
+                </div>
+                <div class="item">
+                    <p>Đăng ký hoặc gọi 1800.0080 để cập nhật chương trình khuyến mãi </p>
+                </div>
+                <div class="item">
+                    <p>Email hỗ trợ: support@drake.vn</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="clearfix"></div>
+    <menu2>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            CONVERSE
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="row">
+                                    <a href="#">
+                                        <div class="col-sm-3">
+                                            <img src="Images/conclassic.jpg">
+                                            <h6 class="megatext">CLASSIC</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-3">
+                                            <img src="Images/con1star.jpg">
+                                            <h6 class="megatext">CONS - ONE STAR</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-3">
+                                            <img src="Images/consea.jpg">
+                                            <h6 class="megatext">SEASONAL</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-3">
+                                            <img src="Images/sandal.jpg">
+                                            <h6 class="megatext">SANDAL</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <a href="#">
+                                        <div class="col-sm-3">
+                                            <img src="Images/chuck1970s.jpg">
+                                            <h6 class="megatext">CHUCK 1970S</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-3">
+                                            <img src="Images/jack.jpg">
+                                            <h6 class="megatext">JACK PURCELL</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-3">
+                                            <img src="Images/consneakermenu.jpg">
+                                            <h6 class="megatext">SNEAKER</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-3">
+                                            <img src="Images/accessories.jpg">
+                                            <h6 class="megatext">ACCESSORIES & APPAREL</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <a href="#">
+                                        <div class="col-sm-3">
+                                            <img src="Images/chuck2.jpg">
+                                            <h6 class="megatext">CHUCK II</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-3">
+                                            <img src="Images/dainty for women.jpg">
+                                            <h6 class="megatext">DAINTY FOR WOMEN</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-3">
+                                            <img src="Images/conkid.jpg">
+                                            <h6 class="megatext">KID</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            VANS
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="row">
+                                    <a href="#">
+                                        <div class="col-sm-2">
+                                            <img src="Images/vansclassic.jpg">
+                                            <h6 class="megatext">VANS CLASSIC</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-2">
+                                            <img src="Images/vansauthetic.jpg">
+                                            <h6 class="megatext">VANS AUTHENTIC</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-2">
+                                            <img src="Images/vansera.jpg">
+                                            <h6 class="megatext">VANS ERA</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-2">
+                                            <img src="Images/vanssneakermenu.jpg">
+                                            <h6 class="megatext">SNEAKER</h6>
+                                        </div>
+                                    </a>
+                                    <div class="col-sm-2">
+                                        <img src="Images/vanskid.jpg">
+                                        <h6 class="megatext">KID</h6>
+                                    </div></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <a href="#">
+                                        <div class="col-sm-2">
+                                            <img src="Images/vansoldskool.jpg">
+                                            <h6 class="megatext">VANS OLD SKOOL</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-2">
+                                            <img src="Images/vansslipon.jpg">
+                                            <h6 class="megatext">VANS SLIP-ON</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-2">
+                                            <img src="Images/vanssk8.jpg">
+                                            <h6 class="megatext">VANS SK8-HI</h6>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="col-sm-2">
+                                            <img src="Images/vansfac.jpg">
+                                            <h6 class="megatext">VANS ANAHEIM FACTORY</h6>
+                                        </div>
+                                    </a>
+                                    <div class="col-sm-2">
+                                        <img src="Images/vansaccessoties.jpg">
+                                        <h6 class="megatext">ACCESSORIES $ APPAREL</h6>
+                                    </div></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            PALLADIUM
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">
+                                    <div class="row">
+                                        <a href="#">
+                                            <div class="col-sm-3">
+                                                <img src="Images/palasneaker.jpg">
+                                                <h6 class="megatext">SNEAKER</h6>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="col-sm-3">
+                                                <img src="Images/palaclassic.jpg">
+                                                <h6 class="megatext">CLASSIC</h6>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="col-sm-3">
+                                                <img src="Images/palawaterroof.jpg">
+                                                <h6 class="megatext">WATERROOF</h6>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="col-sm-3">
+                                                <img src="Images/palaaccessories.jpg">
+                                                <h6 class="megatext">ACCESSORIES & APPAREL</h6>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            K-SWISS
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">
+                                    <div class="row">
+                                        <a href="#">
+                                            <div class="col-sm-3">
+                                                <img src="Images/ksmen.jpg">
+                                                <h6 class="megatext">MEN</h6>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="col-sm-3">
+                                                <img src="Images/kswomen.jpg">
+                                                <h6 class="megatext">WOMEN</h6>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            SUPRA
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">
+                                    <div class="row">
+                                        <a href="#">
+                                            <div class="col-sm-3">
+                                                <img src="Images/suprahi.jpg">
+                                                <h6 class="megatext">HIGH TOP</h6>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="col-sm-3">
+                                                <img src="Images/supralow.jpg">
+                                                <h6 class="megatext">LOW TOP</h6>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="col-sm-3">
+                                                <img src="Images/supraaccessories.jpg">
+                                                <h6 class="megatext">ACCESSORIES & APPAREL</h6>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            ACCESSORIES
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">
+                                    <div class="row">
+                                        <a href="#">
+                                            <div class="col-sm-2">
+                                                <img src="Images/allaccessories.jpg">
+                                                <h6 class="megatext">ALL ACCESSORIES & APPAREL</h6>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="col-sm-2">
+                                                <img src="Images/acccon.jpg">
+                                                <h6 class="megatext">CONVERSE</h6>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="col-sm-2">
+                                                <img src="Images/accvans.jpg">
+                                                <h6 class="megatext">VANS</h6>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="col-sm-2">
+                                                <img src="Images/accpala.jpg">
+                                                <h6 class="megatext">PALLADIUM</h6>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="col-sm-2">
+                                                <img src="Images/accsupra.jpg">
+                                                <h6 class="megatext">SUPRA</h6>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#sale">KHUYẾN MÃI</a></li>
+                    <li><a href="#">CỬA HÀNG</a></li>
+                </ul>
+                <form class="navbar-form navbar-left" action="/action_page.php">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Tìm kiếm"><a href="#" class="glyphicon glyphicon-search"></a>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </menu2>
+    <div class="clearfix"></div>
+    <banner2 style="height: 1000px;">
+        <div id="itmy2" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="Images/banner1.jpg" alt="bannergame">
+                </div>
+                <div class="item">
+                    <img src="Images/banner2.jpg" alt="banner365">
+                </div>
+                <div class="item">
+                    <img src="Images/banner3.jpg" alt="banner365">
+                </div>
+                <div class="item">
+                    <img src="Images/banner4.jpg" alt="banner365">
+                </div>
+                <div class="item">
+                    <img src="Images/banner5.jpg" alt="banner365">
+                </div>
+            </div>
+        </div>
+        <ol class="carousel-indicators chuyenslide">
+            <li data-target="#itmy2" data-slide-to="0"></li>
+            <li data-target="#itmy2" data-slide-to="1"></li>
+            <li data-target="#itmy2" data-slide-to="2"></li>
+            <li data-target="#itmy2" data-slide-to="3"></li>
+            <li data-target="#itmy2" data-slide-to="4"></li>
+        </ol>
+        </div>
+    </banner2>
+    <div class="clearfix"></div>
+    <div class="alllogo">
+        <div class="row">
+            <div class="container">
+                <div class="col-sm-1 lg">
+                    <a href="#con"><img src="Images/logoconverse.jpg"></a>
+                </div>
+                <div class="col-sm-1 lg">
+                    <a href="#va"><img src="Images/logovans.jpg"></a>
+                </div>
+                <div class="col-sm-1 lg">
+                    <a href="#pala"><img src="Images/logobaladium.jpg"></a>
+                </div>
+                <div class="col-sm-1 lg">
+                    <a href="#supra"><img src="Images/logosupra.png"></a>
+                </div>
+                <div class="col-sm-1 lg">
+                    <a href=""><img src="Images/logok-swiss.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="saleship">
+        <div class="row">
+            <div class="col-sm-1 sale">
+                <a href="#sale"><img src="Images/sale70.jpg"></a>
+            </div>
+            <div class="col-sm-1 ship">
+                <a href="#sale"><img src="Images/freeship.jpg"></a>
+            </div>
+        </div>
+    </div>
+    <sanpham>
+        <img class="trai newarr" src="Images/newarruval.jpg">
+        <div class="row1 phai" style="margin-right: 20px;">
+            <div class="col-sm-4">
+                <a href="#"><img src="Images/contrang.jpg"></a>
+                <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star 70 Plus</h3></a>
+                <p class="text"> # A00915C </p>
+                <p class="text">Drake Price:</p>
+                <p class="text tien">2.500.000 đ </p>
+            </div>
+            <div class="col-sm-4">
+                <a href="#"><img src="Images/conden.jpg"></a>
+                <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star 70 Plus</h3></a>
+                <p class="text"> # A00916C </p>
+                <p class="text">Drake Price:</p>
+                <p class="text tien">2.500.000 đ </p>
+            </div>
+            <div class="col-sm-4">
+                <a href="#"><img src="Images/vanseco.jpg"></a>
+                <a href="#"><h3 class="chude text">Vans UA Old Skool Eco Theory Checkerboard</h3></a>
+                <p class="text"> # VN0A54F4705 </p>
+                <p class="text">Drake Price:</p>
+                <p class="text tien">2.200.000 đ </p>
+            </div>
+        </div>
+        <div class="row1 phai" style="margin-right: 20px;">
+            <div class="col-sm-4">
+                <a href="#"><img src="Images/contrangthap.jpg"></a>
+                <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star Dainty</h3></a>
+                <p class="text"> # 564981C </p>
+                <p class="text">Drake Price:</p>
+                <p class="text tien">1.500.000 đ </p>
+            </div>
+            <div class="col-sm-4">
+                <a href="#"><img src="Images/condenthap.jpg"></a>
+                <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star Dainty</h3></a>
+                <p class="text"> # 564982C </p>
+                <p class="text">Drake Price:</p>
+                <p class="text tien">1.500.000 đ </p>
+            </div>
+            <div class="col-sm-4">
+                <a href="#"><img src="Images/contrangthap2.jpg"></a>
+                <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star Rave</h3></a>
+                <p class="text"> # A00832C </p>
+                <p class="text">Drake Price:</p>
+                <p class="text tien">1.550.000 đ </p>
+            </div>
+        </div>
+    </sanpham>
+    <converse>
+        <div class="container">
+            <img id="con" class="sneaker" src="Images/consneaker.jpg">
+            <!-- Hàng 1 -->
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/allstar70den.jpg"></a>
+                    <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star 70 Plus</h3></a>
+                    <p class="text"># A00916C</p>
+                    <p class="text tien">Drake Price: 2.500.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/allstar70trang.jpg"></a>
+                    <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star 70 Plus</h3></a>
+                    <p class="text"># A00915C</p>
+                    <p class="text tien">Drake Price: 2.500.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/dainty.jpg"></a>
+                    <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star Dainty</h3></a>
+                    <p class="text"># 564982C</p>
+                    <p class="text tien">Drake Price: 1.500.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/daintytrang.jpg"></a>
+                    <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star Dainty</h3></a>
+                    <p class="text"># 564981C</p>
+                    <p class="text tien">Drake Price: 1.500.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/platformtrang.jpg"></a>
+                    <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star Lift Platform Canvas</h3></a>
+                    <p class="text"># 560846C</p>
+                    <p class="text tien">Drake Price: 1.800.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="Images/rave.jpg">
+                        <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star Rave</h3></a>
+                        <p class="text"># A00832C</p>
+                        <p class="text tien">Drake Price: 1.500.000 đ</p>
+                </div>
+            </div>
+            <!-- Hàng 2 -->
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/conknit.jpg"></a>
+                    <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star Shoreline Knit Slip</h3></a>
+                    <p class="text"># 565490C</p>
+                    <p class="text tien">Drake Price: 1.900.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/conknitden.jpg"></a>
+                    <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star Shoreline Knit Slip</h3></a>
+                    <p class="text"># 565489C</p>
+                    <p class="text tien">Drake Price: 1.900.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/conseathap.jpg"></a>
+                    <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star Seasonal Color</h3></a>
+                    <p class="text"># 1J794C</p>
+                    <p class="text tien">Drake Price: 1.450.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/conseacao.jpg"></a>
+                    <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star Seasonal Color</h3></a>
+                    <p class="text"># 1J793C</p>
+                    <p class="text tien">Drake Price: 1.550.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/conmono.jpg"></a>
+                    <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star Mono Canvas</h3></a>
+                    <p class="text"># 1U646</p>
+                    <p class="text tien">Drake Price: 1.550.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="Images/conpaint.jpg">
+                        <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star 1970s Archive Paint Splatter</h3></a>
+                        <p class="text"># A01170C</p>
+                        <p class="text tien">Drake Price: 2.500.000 đ</p>
+                </div>
+            </div>
+            <a class="seemore" href="#">See more</a>
+        </div>
+    </converse>
+    <div class="clearfix"></div>
+    <vans>
+        <div class="container">
+            <img id="va" class="sneaker" src="Images/vanssneaker.jpg">
+            <!-- Hàng 1 -->
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vanstheory eco.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Old Skool Eco Theory Checkerboard</h3></a>
+                    <p class="text"># VN0A54F4705</p>
+                    <p class="text tien">Drake Price: 2.200.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vanstheory slipon.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Classic Slip-On Eco Theory Checkerboard</h3></a>
+                    <p class="text"># VN0A5JMH705</p>
+                    <p class="text tien">Drake Price: 1.550.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vanseco.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Authentic Eco Theory Checkerboard</h3></a>
+                    <p class="text"># VN0A5KRD705</p>
+                    <p class="text tien">Drake Price: 1.750.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vnasdecon.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Old Skool Style 36 Decon SF Mix Match</h3></a>
+                    <p class="text"># VN0A5HYRAYR</p>
+                    <p class="text tien">Drake Price: 1.800.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vnasmixmatch.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Classic Slip-On SF Mix Match</h3></a>
+                    <p class="text"># VN0A5HYQAYR</p>
+                    <p class="text tien">Drake Price: 1.450.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="Images/vansSF.jpg">
+                        <a href="#"><h3 class="chude text">Vans UA Authentic SF Mix Match</h3></a>
+                        <p class="text"># VN0A5HYPAYR</p>
+                        <p class="text tien">Drake Price: 1.450.000 đ</p>
+                </div>
+            </div>
+            <!-- Hàng 2 -->
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vanspositivity.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Old Skool Eco Theory Positivity</h3></a>
+                    <p class="text"># VN0A54F4AS1</p>
+                    <p class="text tien">Drake Price: 2.450.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vansauth.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Authentic Eco Theory Positivity</h3></a>
+                    <p class="text"># VN0A5KRDAS1</p>
+                    <p class="text tien">Drake Price: 1.900.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vansauth posi.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Authentic Eco Theory Positivity</h3></a>
+                    <p class="text"># VN0A5KRDARG</p>
+                    <p class="text tien">Drake Price: 1.800.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vansstyle36.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Old Skool Style 36 Mule</h3></a>
+                    <p class="text"># VN0A7Q5YB9F</p>
+                    <p class="text tien">Drake Price: 2.300.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vansmule.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Old Skool Style 36 Mule</h3></a>
+                    <p class="text"># VN0A7Q5YB9E</p>
+                    <p class="text tien">Drake Price: 2.300.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="Images/vanshawaiian.jpg">
+                        <a href="#"><h3 class="chude text">Vans UA Old Skool Style 36 Decon SF Hawaiian Jungle</h3></a>
+                        <p class="text"># VN0A5HYRB6R</p>
+                        <p class="text tien">Drake Price: 1.800.000 đ</p>
+                </div>
+            </div>
+            <a class="seemore" href="#">See more</a>
+        </div>
+    </vans>
+    <palladium>
+        <div class="container">
+            <img id="pala" class="sneaker" src="Images/palladiumseaker.jpg">
+            <!-- Hàng 1 -->
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/legion.jpg"></a>
+                    <a href="#"><h3 class="chude text">Palladium Pallabrousse Legion</h3></a>
+                    <p class="text"># 77018-116-M</p>
+                    <p class="text tien">Drake Price: 2.500.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/wpn.jpg"></a>
+                    <a href="#"><h3 class="chude text">Palladium Pampa Sport Cuff WPN</h3></a>
+                    <p class="text"># 73234-001-M</p>
+                    <p class="text tien">Drake Price: 3.000.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/hi.jpg"></a>
+                    <a href="#"><h3 class="chude text">Palladium Pampa Hi</h3></a>
+                    <p class="text"># 92352-116-M</p>
+                    <p class="text tien">Drake Price: 2.200.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/III.jpg"></a>
+                    <a href="#"><h3 class="chude text">Palladium Pampa Hi Mono Chrome III</h3></a>
+                    <p class="text"># 77077-651-M</p>
+                    <p class="text tien">Drake Price: 2.000.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/chrome.jpg"></a>
+                    <a href="#"><h3 class="chude text">Palladium Pampa Hi Mono Chrome</h3></a>
+                    <p class="text"># 73089-600-M</p>
+                    <p class="text tien">Drake Price: 2.000.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="Images/dt.jpg">
+                        <a href="#"><h3 class="chude text">Palladium Pampa Smiley DT</h3></a>
+                        <p class="text"># 76881-736-M</p>
+                        <p class="text tien">Drake Price: 2.500.000 đ</p>
+                </div>
+            </div>
+            <!-- Hàng 2 -->
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/dare.jpg"></a>
+                    <a href="#"><h3 class="chude text">Palladium Pampa Hi Dare</h3></a>
+                    <p class="text"># 76258-116-M</p>
+                    <p class="text tien">Drake Price: 1.900.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/future.jpg"></a>
+                    <a href="#"><h3 class="chude text">Palladium Pampa Hi Future</h3></a>
+                    <p class="text"># 76885-116-M</p>
+                    <p class="text tien">Drake Price: 2.200.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/mule.jpg"></a>
+                    <a href="#"><h3 class="chude text">Palladium EASY MULE</h3></a>
+                    <p class="text"># 96660-008-M</p>
+                    <p class="text tien">Drake Price: 1.200.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/wp+.jpg"></a>
+                    <a href="#"><h3 class="chude text">Palladium Evo LITE+ RCYCL WP+</h3></a>
+                    <p class="text"># 06655-701-M</p>
+                    <p class="text tien">Drake Price: 3.500.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/originale.jpg"></a>
+                    <a href="#"><h3 class="chude text">Palladium Pampa Hi Originale</h3></a>
+                    <p class="text"># 75349-101-M</p>
+                    <p class="text tien">Drake Price: 2.000.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="Images/change.jpg">
+                        <a href="#"><h3 class="chude text">Palladium Pampa Hi Change</h3></a>
+                        <p class="text"># 76648-116-M</p>
+                        <p class="text tien">Drake Price: 2.300.000 đ</p>
+                </div>
+            </div>
+            <a class="seemore" href="#">See more</a>
+        </div>
+    </palladium>
+    <supra>
+        <div class="container">
+            <img id="supra" class="sneaker" src="Images/suprasneaker.jpg">
+            <!-- Hàng 1 -->
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/breaker.jpg"></a>
+                    <a href="#"><h3 class="chude text">Supra Breaker</h3></a>
+                    <p class="text"># 05893-049-M</p>
+                    <p class="text tien">Drake Price: 3.000.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/lizard.jpg"></a>
+                    <a href="#"><h3 class="chude text">Supra Lizard</h3></a>
+                    <p class="text"># 06372-464-M</p>
+                    <p class="text tien">Drake Price: 2.200.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vaider.jpg"></a>
+                    <a href="#"><h3 class="chude text">Supra Vaider</h3></a>
+                    <p class="text"># 08206-697-M</p>
+                    <p class="text tien">Drake Price: 2.100.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vulc.jpg"></a>
+                    <a href="#"><h3 class="chude text">Supra Stacks II VULC</h3></a>
+                    <p class="text"># 08193-069-M</p>
+                    <p class="text tien">Drake Price: 1.800.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/aluminum.jpg"></a>
+                    <a href="#"><h3 class="chude text">Supra Aluminum</h3></a>
+                    <p class="text"># 05662-816-M</p>
+                    <p class="text tien">Drake Price: 2.000.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="Images/aluminumden.jpg">
+                        <a href="#"><h3 class="chude text">Supra Aluminum</h3></a>
+                        <p class="text"># 05662-002-M</p>
+                        <p class="text tien">Drake Price: 2.000.000 đ</p>
+                </div>
+            </div>
+            <!-- Hàng 2 -->
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/aluminumdo.jpg"></a>
+                    <a href="#"><h3 class="chude text">Supra Aluminum</h3></a>
+                    <p class="text"># 05662-622-M</p>
+                    <p class="text tien">Drake Price: 2.000.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/chino.jpg"></a>
+                    <a href="#"><h3 class="chude text">Supra Chino</h3></a>
+                    <p class="text"># 08051-401-M</p>
+                    <p class="text tien">Drake Price: 1.500.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/court.jpg"></a>
+                    <a href="#"><h3 class="chude text">Supra Chino Court</h3></a>
+                    <p class="text"># 08058-003-M</p>
+                    <p class="text tien">Drake Price: 1.500.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/flow.jpg"></a>
+                    <a href="#"><h3 class="chude text">Supra Flow</h3></a>
+                    <p class="text"># 08325-360-M</p>
+                    <p class="text tien">Drake Price: 1.800.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/vtgden.jpg"></a>
+                    <a href="#"><h3 class="chude text">Supra Hammer VTG</h3></a>
+                    <p class="text"># 06123-002-M</p>
+                    <p class="text tien">Drake Price: 1.800.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="Images/vtgtrang.jpg">
+                        <a href="#"><h3 class="chude text">Supra Hammer VTG</h3></a>
+                        <p class="text"># 06123-101-M/p>
+                        <p class="text tien">Drake Price: 1.800.000 đ</p>
+                </div>
+            </div>
+            <a class="seemore" href="#">See more</a>
+        </div>
+    </supra>
+    <vansclassic>
+        <div class="container">
+            <img class="sneaker" src="Images/vansclassicsneaker.jpg">
+            <!-- Hàng 1 -->
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/MN.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans MN Skate Old Skool</h3></a>
+                    <p class="text"># VN0A5FCBY28</p>
+                    <p class="text tien">Drake Price: 2.200.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/MN2.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans MN Old Skool Pro</h3></a>
+                    <p class="text"># VN000ZD4Y28</p>
+                    <p class="text tien">Drake Price: 2.000.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/UA.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Old Skool</h3></a>
+                    <p class="text"># VN000D3HBKA</p>
+                    <p class="text tien">Drake Price: 1.750.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/dx1.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans Old Skool 36 DX Anaheim Factory</h3></a>
+                    <p class="text"># VN0A38G2OAK</p>
+                    <p class="text tien">Drake Price: 2.250.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/dx2.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans Old Skool 36 DX Anaheim Factory</h3></a>
+                    <p class="text"># VN0A38G2PXC</p>
+                    <p class="text tien">Drake Price: 2.250.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="Images/checkerboard.jpg">
+                        <a href="#"><h3 class="chude text">Vans Old Skool Checkerboard</h3></a>
+                        <p class="text"># VN0A38G1P0S</p>
+                        <p class="text tien">Drake Price: 1.750.000 đ</p>
+                </div>
+            </div>
+            <!-- Hàng 2 -->
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/44dx1.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans Authentic 44 DX Anaheim Factory</h3></a>
+                    <p class="text"># VN0A38ENMR4</p>
+                    <p class="text tien">Drake Price: 2.000.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/44dx2.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans Authentic 44 DX Anaheim Factory</h3></a>
+                    <p class="text"># VN0A38ENMR2</p>
+                    <p class="text tien">Drake Price: 2.000.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/44dx3.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans Authentic 44 DX Anaheim Factory</h3></a>
+                    <p class="text"># VN0A38ENOAK</p>
+                    <p class="text tien">Drake Price: 1.900.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/classicslipon.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans Classic Slip-On</h3></a>
+                    <p class="text"># VN000EYEBPJ</p>
+                    <p class="text tien">Drake Price: 1.450.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/oldskool.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans Old Skool</h3></a>
+                    <p class="text"># VN000D3HY28</p>
+                    <p class="text tien">Drake Price: 1.750.000 đ</p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="Images/oldskooltrang.jpg">
+                        <a href="#"><h3 class="chude text">Vans Old Skool</h3></a>
+                        <a class="text"># VN000D3HW00</a>
+                        <p class="text tien">Drake Price: 1.750.000 đ</p>
+                </div>
+            </div>
+            <a class="seemore" href="#">See more</a>
+        </div>
+    </vansclassic>
+    <sale70 id="sale">
+        <div class="container">
+            <img class="sneaker" src="Images/sale70%.jpg">
+            <!-- Hàng 1 -->
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/mlb.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA SK8-Hi MLB New York/Yankees</h3></a>
+                    <p class="text"># VN0A38GEKU3</p>
+                    <p class="text tien">Drake Price: <span class="text tiensale">1.295.000 đ</span></p>
+                    <p class="text tiencu">Retail Price:<del> 1.850.000</del></p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/mototrang.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Classic Slip-On Moto Leather</h3></a>
+                    <p class="text"># VN0A38F7OG8</p>
+                    <p class="text tien">Drake Price: <span class="text tiensale">1.050.000 đ</span></p>
+                    <p class="text tiencu">Retail Price:<del> 1.500.000</del></p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/motoden.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Classic Slip-On Moto Leather</h3></a>
+                    <p class="text"># VN000D3HBKA</p>
+                    <p class="text tien">Drake Price: <span class="text tiensale">1.050.000 đ</span></p>
+                    <p class="text tiencu">Retail Price:<del> 1.500.000</del></p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/tonetrang.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Authentic Gore 2-Tone Studs</h3></a>
+                    <p class="text"># VN0A38ETMSZ</p>
+                    <p class="text tien">Drake Price: <span class="text tiensale">1.190.000 đ</span></p>
+                    <p class="text tiencu">Retail Price:<del> 1.700.000</del></p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/toneden.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Authentic Gore 2-Tone Studs</h3></a>
+                    <p class="text"># VN0A38ETMSY</p>
+                    <p class="text tien">Drake Price: <span class="text tiensale">1.190.000 đ</span></p>
+                    <p class="text tiencu">Retail Price:<del> 1.700.000</del></p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="Images/wearenotalone.jpg">
+                        <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star We Are Not Alone</h3></a>
+                        <p class="text"># 165385C</p>
+                        <p class="text tien">Drake Price: <span class="text tiensale">1.000.000 đ</span></p>
+                        <p class="text tiencu">Retail Price:<del> 1.400.000</del></p>
+                </div>
+            </div>
+            <!-- Hàng 2 -->
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/wearenotaloneden.jpg"></a>
+                    <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star We Are Not Alone</h3></a>
+                    <p class="text"># 165382C</p>
+                    <p class="text tien">Drake Price: <span class="text tiensale">1.000.000 đ</span></p>
+                    <p class="text tiencu">Retail Price:<del> 1.400.000</del></p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/floral.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans UA Authentic Warped Floral</h3></a>
+                    <p class="text"># VN0A2Z5IT7R</p>
+                    <p class="text tien">Drake Price: <span class="text tiensale">1.085.000 đ</span></p>
+                    <p class="text tiencu">Retail Price:<del> 1.550.000</del></p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/carnival.jpg"></a>
+                    <a href="#"><h3 class="chude text">Converse Chuck Taylor All Star 1970s Carnival Lights</h3></a>
+                    <p class="text"># 564130C</p>
+                    <p class="text tien">Drake Price: <span class="text tiensale">1.190.000 đ</span></p>
+                    <p class="text tiencu">Retail Price:<del> 1.700.000</del></p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/hi lady.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans SK8-Hi Lady</h3></a>
+                    <p class="text"># VN0A4BV6XK9</p>
+                    <p class="text tien">Drake Price: <span class="text tiensale">1.400.000 đ</span></p>
+                    <p class="text tiencu">Retail Price:<del> 2.000.000</del></p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#"><img src="Images/stickers.jpg"></a>
+                    <a href="#"><h3 class="chude text">Vans Slip-On Mash Up Stickers</h3></a>
+                    <p class="text"># VN0A38F7VFV</p>
+                    <p class="text tien">Drake Price: <span class="text tiensale">1.015.000 đ</span></p>
+                    <p class="text tiencu">Retail Price:<del> 1.450.000</del></p>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <img src="Images/checkblock.jpg">
+                        <a href="#"><h3 class="chude text">Vans Era Check Block</h3></a>
+                        <a class="text"># VN0A38FRVOR</a>
+                        <p class="text tien">Drake Price: <span class="text tiensale">1.000.000 đ</span></p>
+                        <p class="text tiencu">Retail Price:<del> 1.450.000</del></p>
+                </div>
+            </div>
+            <a class="seemore" href="#">See more</a>
+        </div>
+    </sale70>
+    <info>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="title">GIỚI THIỆU VỀ DRAKE.VN</h3>
+                    <img class="hinh" src="Images/info.jpg">
+                    <p>
+                        Website drake.vn cung cấp các thương hiệu như Vans, Converse, Palladium, K-Swiss, SUPRA chính hãng.
+                        Thường xuyên và đều đặn cập nhật nhiều sản phẩm từ các bộ sưu tập mới nhất giúp khách hàng nhanh chóng
+                        sở hữu những sản phẩm mình yêu thích.
+                    </p>
+                    <p><b>Địa chỉ: Số 879 Nguyễn Kiệm, Phường 3, Quận Gò Vấp, TP.HCM</b></p>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="title">TIN TỨC</h3>
+                    <div class="img">
+                        <img src="Images/tín.jpg">
+                    </div>
+                    <div class="caption">
+                        <h4 class="tintuc"><a href="#">CONVERSE 1970S TRẮNG - ITEM GIÚP BẠN HÓA GIẢI NHỮNG NGÀY KHÔNG CÓ GÌ ĐỂ MẶC..</a></h4>
+                        <p class="ngay">14/08/2022</p>
+                        <div class="mota"> Những đôi Converse 1970s trắng luôn là những “vị cứu tinh” cho những ngày không biết phải lựa c..... </div>
+                    </div>
+                    <div class="img">
+                        <img src="Images/tin2.jpg">
+                    </div>
+                    <div class="caption">
+                        <h4 class="tintuc"><a href="#">GIÀY VANS MULE - THIẾT KẾ MỚI GÂY ẤN TƯỢNG CHO GIỚI TRẺ HIỆN NAY..</a></h4>
+                        <p class="ngay">13/08/2022</p>
+                        <div class="mota">Giày Vans mule là kiểu dáng được đông đảo các bạn trẻ “săn lùng” thời gian vừa qua. Với thiết kế có .....</div>
+                    </div>
+                    <div class="img">
+                        <img src="Images/tin3.jpg">
+                    </div>
+                    <div class="caption">
+                        <h4 class="tintuc"><a href="#">CONVERSE CHUCK 70 PLUS - TÁI BẢN THIẾT KẾ ĐA NHIỆM CÙNG THẾ HỆ TƯƠNG LAI..</a></h4>
+                        <p class="ngay">12/08/2022</p>
+                        <div class="mota">Converse được biết đến là một thương hiệu luôn hướng tới những thiết kế dành cho thế hệ trẻ. Vậy nên.....</div>
+                    </div>
+                    <div class="img">
+                        <img src="Images/tin4.jpg">
+                    </div>
+                    <div class="caption">
+                        <h4 class="tintuc"><a href="#">CONVERSE 1970S LOW WHITE CHÌA KHÓA NÂNG NIU SỰ THOẢI MÁI TUNG TĂNG NGÀY HÈ..</a></h4>
+                        <p class="ngay">11/08/2022</p>
+                        <div class="mota">Không chỉ là mẫu giày giúp hỗ trợ đôi chân bạn có thể thoải mái trên mọi hoạt động, các thiết kế Con.....</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </info>
+    <dk>
+        <div class="email">
+            <h3 class="dk">ĐĂNG KÝ NHẬN TIN</h3>
+            <input class="laytt" type="email" placeholder="Email của bạn"><button class="btn btn-default">ĐĂNG KÝ</button>
+        </div>
+    </dk>
+    <cuoiTrang>
+        <Footer class="footer">
+            <div class="footer_wrap">
+                <div class="footer-tren border-bottom">
+                    <div class="footer-ul">
+                        <div class="footer-list">
+                            <h4>GIỚI THIỆU</h4>
+                            <ul>
+                                <li>
+                                    <a href="#" class="items-link">Về Drake</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="items-link">Tin tức</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="items-link">Cửa hàng</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="items-link">Khuyến mãi</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-list">
+                            <h4>THÔNG TIN</h4>
+                            <ul>
+                                <li>
+                                    <a href="#" class="items-link">Chính sách và quy định chung</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="items-link">Quy định và hình thức thanh toán</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="items-link">Chính sách vận chuyển, giao nhận</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="items-link">Chính sách bảo hành - đổi/trả</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="items-link">Chính sách bảo mật</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-list">
+                            <h4>HỖ TRỢ</h4>
+                            <ul>
+                                <li>
+                                    <a href="#" class="items-link">Hỗ trợ trực tuyến</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="items-link">Đối tác</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="items-link">Tuyển dụng</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="items-link do">Kiểm tra đơn hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-logo">
+                        <div class="footer-list">
+                            <h4>HỖ TRỢ THANH TOÁN</h4>
+                            <ul>
+                                <img src="Images/mastercard.jpg">
+                            </ul>
+                        </div>
+                        <div class="footer-list">
+                            <h4>FOLLOW US</h4>
+                            <ul>
+                                <div class="mangxahoi">
+                                    <img src="Images/logoface.jpg">
+                                    <img src="Images/logoinsta.jpg">
+                                    <img src="Images/logoytb.png">
+                                    <img src="Images/logolazada.png">
+                                    <img src="Images/logoshopee.png">
+                                    <img src="Images/logotiki.jpg">
+                                    <img src="Images/logotiktok.jpg">
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p class="by">©DANGKHOACONVERSE - All Rights Reserved. Thiết kế web bởi WEBICO.VN</p>
+    </cuoiTrang>
+</body>
+</html>

@@ -1,0 +1,384 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A0E7F41-F36A-495B-B216-B7E59B91FE8C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DoAnLapTrinhWeb</RootNamespace>
+    <AssemblyName>DoAnLapTrinhWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44382</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Images\44dx1.jpg" />
+    <Content Include="Content\Images\44dx2.jpg" />
+    <Content Include="Content\Images\44dx3.jpg" />
+    <Content Include="Content\Images\acccon.jpg" />
+    <Content Include="Content\Images\accessories.jpg" />
+    <Content Include="Content\Images\accpala.jpg" />
+    <Content Include="Content\Images\accsupra.jpg" />
+    <Content Include="Content\Images\accvans.jpg" />
+    <Content Include="Content\Images\allaccessories.jpg" />
+    <Content Include="Content\Images\allstar70den.jpg" />
+    <Content Include="Content\Images\allstar70trang.jpg" />
+    <Content Include="Content\Images\aluminum.jpg" />
+    <Content Include="Content\Images\aluminumden.jpg" />
+    <Content Include="Content\Images\aluminumdo.jpg" />
+    <Content Include="Content\Images\banner1.jpg" />
+    <Content Include="Content\Images\banner2.jpg" />
+    <Content Include="Content\Images\banner3.jpg" />
+    <Content Include="Content\Images\banner4.jpg" />
+    <Content Include="Content\Images\banner5.jpg" />
+    <Content Include="Content\Images\breaker.jpg" />
+    <Content Include="Content\Images\carnival.jpg" />
+    <Content Include="Content\Images\change.jpg" />
+    <Content Include="Content\Images\checkblock.jpg" />
+    <Content Include="Content\Images\checkerboard.jpg" />
+    <Content Include="Content\Images\chino.jpg" />
+    <Content Include="Content\Images\chrome.jpg" />
+    <Content Include="Content\Images\chuck1970s.jpg" />
+    <Content Include="Content\Images\chuck2.jpg" />
+    <Content Include="Content\Images\classicslipon.jpg" />
+    <Content Include="Content\Images\con1star.jpg" />
+    <Content Include="Content\Images\conclassic.jpg" />
+    <Content Include="Content\Images\conden.jpg" />
+    <Content Include="Content\Images\condenthap.jpg" />
+    <Content Include="Content\Images\conkid.jpg" />
+    <Content Include="Content\Images\conknit.jpg" />
+    <Content Include="Content\Images\conknitden.jpg" />
+    <Content Include="Content\Images\conmono.jpg" />
+    <Content Include="Content\Images\conpaint.jpg" />
+    <Content Include="Content\Images\consea.jpg" />
+    <Content Include="Content\Images\conseacao.jpg" />
+    <Content Include="Content\Images\conseathap.jpg" />
+    <Content Include="Content\Images\consneaker.jpg" />
+    <Content Include="Content\Images\consneakermenu.jpg" />
+    <Content Include="Content\Images\contrang.jpg" />
+    <Content Include="Content\Images\contrangthap.jpg" />
+    <Content Include="Content\Images\contrangthap2.jpg" />
+    <Content Include="Content\Images\court.jpg" />
+    <Content Include="Content\Images\dainty for women.jpg" />
+    <Content Include="Content\Images\dainty.jpg" />
+    <Content Include="Content\Images\daintytrang.jpg" />
+    <Content Include="Content\Images\dare.jpg" />
+    <Content Include="Content\Images\dF5SId3UHWd.svg" />
+    <Content Include="Content\Images\drake_logo.png" />
+    <Content Include="Content\Images\dt.jpg" />
+    <Content Include="Content\Images\dx1.jpg" />
+    <Content Include="Content\Images\dx2.jpg" />
+    <Content Include="Content\Images\floral.jpg" />
+    <Content Include="Content\Images\flow.jpg" />
+    <Content Include="Content\Images\freeship.jpg" />
+    <Content Include="Content\Images\future.jpg" />
+    <Content Include="Content\Images\hi lady.jpg" />
+    <Content Include="Content\Images\hi.jpg" />
+    <Content Include="Content\Images\III.jpg" />
+    <Content Include="Content\Images\info.jpg" />
+    <Content Include="Content\Images\jack.jpg" />
+    <Content Include="Content\Images\ksmen.jpg" />
+    <Content Include="Content\Images\kswomen.jpg" />
+    <Content Include="Content\Images\legion.jpg" />
+    <Content Include="Content\Images\lizard.jpg" />
+    <Content Include="Content\Images\logobaladium.jpg" />
+    <Content Include="Content\Images\logoconverse.jpg" />
+    <Content Include="Content\Images\logoface.jpg" />
+    <Content Include="Content\Images\logoinsta.jpg" />
+    <Content Include="Content\Images\logok-swiss.jpg" />
+    <Content Include="Content\Images\logolazada.png" />
+    <Content Include="Content\Images\logoshopee.png" />
+    <Content Include="Content\Images\logosupra.png" />
+    <Content Include="Content\Images\logotiki.jpg" />
+    <Content Include="Content\Images\logotiktok.jpg" />
+    <Content Include="Content\Images\logovans.jpg" />
+    <Content Include="Content\Images\logoytb.png" />
+    <Content Include="Content\Images\mastercard.jpg" />
+    <Content Include="Content\Images\mlb.jpg" />
+    <Content Include="Content\Images\MN.jpg" />
+    <Content Include="Content\Images\MN2.jpg" />
+    <Content Include="Content\Images\motoden.jpg" />
+    <Content Include="Content\Images\mototrang.jpg" />
+    <Content Include="Content\Images\mule.jpg" />
+    <Content Include="Content\Images\newarruval.jpg" />
+    <Content Include="Content\Images\oldskool.jpg" />
+    <Content Include="Content\Images\oldskooltrang.jpg" />
+    <Content Include="Content\Images\originale.jpg" />
+    <Content Include="Content\Images\palaaccessories.jpg" />
+    <Content Include="Content\Images\palaclassic.jpg" />
+    <Content Include="Content\Images\palasneaker.jpg" />
+    <Content Include="Content\Images\palawaterroof.jpg" />
+    <Content Include="Content\Images\palladiumseaker.jpg" />
+    <Content Include="Content\Images\platformtrang.jpg" />
+    <Content Include="Content\Images\rave.jpg" />
+    <Content Include="Content\Images\sale70%25.jpg" />
+    <Content Include="Content\Images\sale70.jpg" />
+    <Content Include="Content\Images\sandal.jpg" />
+    <Content Include="Content\Images\stickers.jpg" />
+    <Content Include="Content\Images\supraaccessories.jpg" />
+    <Content Include="Content\Images\suprahi.jpg" />
+    <Content Include="Content\Images\supralow.jpg" />
+    <Content Include="Content\Images\suprasneaker.jpg" />
+    <Content Include="Content\Images\tin2.jpg" />
+    <Content Include="Content\Images\tin3.jpg" />
+    <Content Include="Content\Images\tin4.jpg" />
+    <Content Include="Content\Images\toneden.jpg" />
+    <Content Include="Content\Images\tonetrang.jpg" />
+    <Content Include="Content\Images\tín.jpg" />
+    <Content Include="Content\Images\UA.jpg" />
+    <Content Include="Content\Images\vaider.jpg" />
+    <Content Include="Content\Images\vansaccessoties.jpg" />
+    <Content Include="Content\Images\vansauth posi.jpg" />
+    <Content Include="Content\Images\vansauth.jpg" />
+    <Content Include="Content\Images\vansauthetic.jpg" />
+    <Content Include="Content\Images\vansclassic.jpg" />
+    <Content Include="Content\Images\vansclassicsneaker.jpg" />
+    <Content Include="Content\Images\vanseco.jpg" />
+    <Content Include="Content\Images\vansera.jpg" />
+    <Content Include="Content\Images\vansfac.jpg" />
+    <Content Include="Content\Images\vanshawaiian.jpg" />
+    <Content Include="Content\Images\vanskid.jpg" />
+    <Content Include="Content\Images\vansmule.jpg" />
+    <Content Include="Content\Images\vansoldskool.jpg" />
+    <Content Include="Content\Images\vanspositivity.jpg" />
+    <Content Include="Content\Images\vansSF.jpg" />
+    <Content Include="Content\Images\vanssk8.jpg" />
+    <Content Include="Content\Images\vansslipon.jpg" />
+    <Content Include="Content\Images\vanssneaker.jpg" />
+    <Content Include="Content\Images\vanssneakermenu.jpg" />
+    <Content Include="Content\Images\vansstyle36.jpg" />
+    <Content Include="Content\Images\vanstheory eco.jpg" />
+    <Content Include="Content\Images\vanstheory slipon.jpg" />
+    <Content Include="Content\Images\vanstheory.jpg" />
+    <Content Include="Content\Images\vnasdecon.jpg" />
+    <Content Include="Content\Images\vnasmixmatch.jpg" />
+    <Content Include="Content\Images\vtgden.jpg" />
+    <Content Include="Content\Images\vtgtrang.jpg" />
+    <Content Include="Content\Images\vulc.jpg" />
+    <Content Include="Content\Images\wearenotalone.jpg" />
+    <Content Include="Content\Images\wearenotaloneden.jpg" />
+    <Content Include="Content\Images\wp+.jpg" />
+    <Content Include="Content\Images\wpn.jpg" />
+    <Content Include="Content\Index.html" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap\wells.less" />
+    <Content Include="Content\bootstrap\variables.less" />
+    <Content Include="Content\bootstrap\utilities.less" />
+    <Content Include="Content\bootstrap\type.less" />
+    <Content Include="Content\bootstrap\tooltip.less" />
+    <Content Include="Content\bootstrap\thumbnails.less" />
+    <Content Include="Content\bootstrap\theme.less" />
+    <Content Include="Content\bootstrap\tables.less" />
+    <Content Include="Content\bootstrap\scaffolding.less" />
+    <Content Include="Content\bootstrap\responsive-utilities.less" />
+    <Content Include="Content\bootstrap\responsive-embed.less" />
+    <Content Include="Content\bootstrap\progress-bars.less" />
+    <Content Include="Content\bootstrap\print.less" />
+    <Content Include="Content\bootstrap\popovers.less" />
+    <Content Include="Content\bootstrap\panels.less" />
+    <Content Include="Content\bootstrap\pagination.less" />
+    <Content Include="Content\bootstrap\pager.less" />
+    <Content Include="Content\bootstrap\normalize.less" />
+    <Content Include="Content\bootstrap\navs.less" />
+    <Content Include="Content\bootstrap\navbar.less" />
+    <Content Include="Content\bootstrap\modals.less" />
+    <Content Include="Content\bootstrap\mixins\vendor-prefixes.less" />
+    <Content Include="Content\bootstrap\mixins\text-overflow.less" />
+    <Content Include="Content\bootstrap\mixins\text-emphasis.less" />
+    <Content Include="Content\bootstrap\mixins\table-row.less" />
+    <Content Include="Content\bootstrap\mixins\tab-focus.less" />
+    <Content Include="Content\bootstrap\mixins\size.less" />
+    <Content Include="Content\bootstrap\mixins\responsive-visibility.less" />
+    <Content Include="Content\bootstrap\mixins\resize.less" />
+    <Content Include="Content\bootstrap\mixins\reset-text.less" />
+    <Content Include="Content\bootstrap\mixins\reset-filter.less" />
+    <Content Include="Content\bootstrap\mixins\progress-bar.less" />
+    <Content Include="Content\bootstrap\mixins\panels.less" />
+    <Content Include="Content\bootstrap\mixins\pagination.less" />
+    <Content Include="Content\bootstrap\mixins\opacity.less" />
+    <Content Include="Content\bootstrap\mixins\nav-vertical-align.less" />
+    <Content Include="Content\bootstrap\mixins\nav-divider.less" />
+    <Content Include="Content\bootstrap\mixins\list-group.less" />
+    <Content Include="Content\bootstrap\mixins\labels.less" />
+    <Content Include="Content\bootstrap\mixins\image.less" />
+    <Content Include="Content\bootstrap\mixins\hide-text.less" />
+    <Content Include="Content\bootstrap\mixins\grid.less" />
+    <Content Include="Content\bootstrap\mixins\grid-framework.less" />
+    <Content Include="Content\bootstrap\mixins\gradients.less" />
+    <Content Include="Content\bootstrap\mixins\forms.less" />
+    <Content Include="Content\bootstrap\mixins\clearfix.less" />
+    <Content Include="Content\bootstrap\mixins\center-block.less" />
+    <Content Include="Content\bootstrap\mixins\buttons.less" />
+    <Content Include="Content\bootstrap\mixins\border-radius.less" />
+    <Content Include="Content\bootstrap\mixins\background-variant.less" />
+    <Content Include="Content\bootstrap\mixins\alerts.less" />
+    <Content Include="Content\bootstrap\mixins.less" />
+    <Content Include="Content\bootstrap\media.less" />
+    <Content Include="Content\bootstrap\list-group.less" />
+    <Content Include="Content\bootstrap\labels.less" />
+    <Content Include="Content\bootstrap\jumbotron.less" />
+    <Content Include="Content\bootstrap\input-groups.less" />
+    <Content Include="Content\bootstrap\grid.less" />
+    <Content Include="Content\bootstrap\glyphicons.less" />
+    <Content Include="Content\bootstrap\forms.less" />
+    <Content Include="Content\bootstrap\dropdowns.less" />
+    <Content Include="Content\bootstrap\component-animations.less" />
+    <Content Include="Content\bootstrap\code.less" />
+    <Content Include="Content\bootstrap\close.less" />
+    <Content Include="Content\bootstrap\carousel.less" />
+    <Content Include="Content\bootstrap\buttons.less" />
+    <Content Include="Content\bootstrap\button-groups.less" />
+    <Content Include="Content\bootstrap\breadcrumbs.less" />
+    <Content Include="Content\bootstrap\bootstrap.less" />
+    <Content Include="Content\bootstrap\badges.less" />
+    <Content Include="Content\bootstrap\alerts.less" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60630</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44382/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
